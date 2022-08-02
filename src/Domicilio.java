@@ -2,6 +2,8 @@ public class Domicilio
 {
     private Estado estado;
     private String Estadito;
+    private String direccion;
+    private int tiempoDeEstado;
 
     public Domicilio()
     {
@@ -13,27 +15,29 @@ public class Domicilio
         this.seguimiento();
         this.estado=estado;
     }
-    private int tiempoDeEstado;
 
-    public Estado getEstado() {
+    public Estado getEstado()
+    {
         return estado;
     }
 
-    public void setEstado(Estado estado) {
+    public void setEstado(Estado estado)
+    {
         this.estado = estado;
     }
 
-    private String direccion;
-
-    public String getDireccion() {
+    public String getDireccion()
+    {
         return direccion;
     }
 
-    public void setDireccion(String direccion) {
+    public void setDireccion(String direccion)
+    {
         this.direccion = direccion;
     }
 
-    public void setTiempoDeEstado(int tiempoDeEstado) {
+    public void setTiempoDeEstado(int tiempoDeEstado)
+    {
         this.tiempoDeEstado = tiempoDeEstado;
     }
 
@@ -59,11 +63,13 @@ public class Domicilio
         }
     }
 
-    public String getEstadito() {
+    public String getEstadito()
+    {
         return Estadito;
     }
 
-    public void setEstadito(String estadito) {
+    public void setEstadito(String estadito)
+    {
         Estadito = estadito;
     }
 }
