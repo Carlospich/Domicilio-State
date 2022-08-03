@@ -15,7 +15,7 @@ public class ConfirmarPago extends Estado
     {
         domicilio.cambiarEstado(new DespachoEstado (domicilio));
         domicilio.setEstadito("Confirmado");
-        return("1");
+        return("");
     }
 
     @Override

@@ -21,7 +21,7 @@ public class DespachoEstado extends Estado
     {
         domicilio.cambiarEstado(new EntregadoEstado (domicilio));
         domicilio.setEstadito("Despachado");
-        return ("1");
+        return ("");
     }
 
     @Override

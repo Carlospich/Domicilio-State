@@ -27,6 +27,6 @@ public class EntregadoEstado extends Estado
     {
         domicilio.cambiarEstado(new RecibidoEstado (domicilio));
         domicilio.setEstadito("Entregado");
-        return ("1");
+        return ("");
     }
 }

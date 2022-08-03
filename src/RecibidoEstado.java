@@ -9,7 +9,7 @@ public class RecibidoEstado extends Estado
     {
         domicilio.cambiarEstado(new ConfirmarPago (domicilio));
         domicilio.setEstadito("Recibido");
-        return ("1");
+        return ("Recibido");
     }
 
     @Override

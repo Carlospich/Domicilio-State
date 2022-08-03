@@ -47,7 +47,7 @@ public class Domicilio
         {
             System.out.println("Esperando confirmacion de pago");
             try {
-                Thread.sleep(15000);
+                Thread.sleep(10000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
@@ -56,7 +56,7 @@ public class Domicilio
         {
             System.out.println("Su pedido ya va en camino");
             try {
-                Thread.sleep(10000);
+                Thread.sleep(6000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
